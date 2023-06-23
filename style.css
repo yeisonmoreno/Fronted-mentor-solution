@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Poppins:wght@100&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    Font-size: 15px;  
+    width: 100%; 
+    height: 100%;
+    justify-content: center;
+}
+
+.container{
+    width: 90%;
+    padding: 10px;
+    max-width: 380px;
+    border-radius: 5%;
+    margin-top: 5rem;
+    background-color:  hsl(0, 0%, 100%);
+    
+}
+.container img{
+    width: 100%;
+    border-radius: 5%;
+}
+.container h3{
+    text-align: justify;
+    padding: 0 15px;    
+}
+.container p{
+    color:hsl(220, 15%, 55%);
+    text-align: justify;
+    padding: 10px;
+}
+.attribution{
+  
+    opacity: 0.2;
+    
+}
